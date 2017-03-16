@@ -1,0 +1,152 @@
+/* app css stylesheet */
+/*Loading */
+.loading-indicator{
+    position: absolute;
+    background: rgba(154,154,154,0.9);
+    width: 100%;
+    z-index: 115;
+    height: 100%;
+}
+.three-dots-row-spinner{
+    margin: auto !important;
+    background-color: #000 !important;
+    position: relative;
+    top: 230px;
+}
+a{
+    cursor: pointer;
+}
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+.row-main{
+    background-image: url('../images/home-bg.jpg');
+    background-size: cover;
+    color: #fff;
+    height: 400px;
+}
+.row-about{
+    background-image: url('../images/about.jpg');
+    background-size: cover;
+    color: #fff;
+    height: 400px;
+}
+.row-pricing{
+    background-image: url('../images/price.jpg');
+    background-size: cover;
+    padding: 50px 0 20px 0;
+}
+.jumbotron > h1,
+.jumbotron > p{
+    color: #fff;
+}
+.circle{
+    height: 75px;
+    width: 75px;
+    line-height: 70px;
+    text-align: center;
+    border: 3px solid #000;
+    border-radius: 100%;
+    font-size: 30px;
+}
+.hero{
+    position: relative;
+    top: 72px;
+    line-height: 95px;
+    margin: 0 auto;
+    font-family: monospace;
+}
+.hero > h1{
+    font-size: 55px;
+}
+.hero > p{
+    font-size: 22px;
+}
+.double-line{
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    height: 2px;
+    max-width: 200px;
+}
+.bottom-margin--30{
+    margin-bottom: 30px;
+}
+.text-size--17{
+    font-size: 17px;
+}
+.about--main-text{
+    font-size: 17px;
+    margin: 65px auto;
+}
+.about--skills{
+    font-size: 22px;
+}
+.col-xs-10 > h4{
+    text-decoration: underline;     
+}
+.about--sub-text{
+    padding: 3% 0;
+    font-size: 20px;
+    font-style: italic;
+}
+.about-h3{
+    margin-top: 75px;
+}
+.offRed{
+    background-color: #521313;
+    color: #fff;
+}
+.offRed__padding-home{
+    padding: 115px 0 175px 0;
+}
+.list-group > .list-group-item{
+    color: #000;
+}
+.logo-icons{
+    width: 300px;
+}
+.row__bottom-margin{
+    margin-bottom: 50px;
+}
+.icon-desc{
+    padding-top: 50px;
+}
+.price--bg{
+    background-color: #fff;
+    padding: 10px 10px;
+}
+.row-footer{
+    background-color: #000;
+    color: #fff;
+    padding: 55px 0;
+}
+.price--stand-out{
+    -webkit-box-shadow: 0 0 27px -3px rgba(0,0,0,.75);
+    -moz-box-shadow: 0 0 27px -3px rgba(0,0,0,.75);
+    box-shadow: 0 0 27px -3px rgba(0,0,0,.75);
+    z-index: 10;
+    height: 532px;
+    position: relative;
+    top: -13px;
+}
+.form-signin{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.list-unstyled > li > a{
+    color: #fff;
+}
+.list-unstyled > li > a:hover{
+    color: #fff;
+}
+.social > li {
+    display: -webkit-inline-box;
+    display: inline;
+    padding: 0 20px;
+}
+#textAngular-editableFix-010203040506070809{
+    display: none;
+}
+/*OverRide BS styles.*/
+.navbar{
+    margin-bottom: 0;
+}

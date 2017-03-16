@@ -1,0 +1,26 @@
+<div class="row">
+    <div class="col-lg-8 main-blog-list">
+        <div class="blog" ng-repeat="object in blog track by $index">
+            <div class="blog__image">
+                <img src="" ng-src="{{object.postImage}}" alt="{{object.postImage}}" class="img-responsive">
+            </div>
+            <h3 class="blog__title">{{object.postTitle}}</h3>
+            <p class="blog__date">{{object.postDate | dateChange | date:'MMMM dd yyyy'}}</p>
+            <p class="blog__description">{{object.postDesc}}</p>
+            <div class="blog__link">
+                <a class="btn btn-info" ng-click="readMore($index)" href="#single-post">Read More...</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 side-bar">
+        <aside>
+            <label>Recent Blogs</label>
+            <div class="recent-list" ng-repeat="object in blog track by $index">
+                <div class="recent-list__title">
+                    <h4>{{object.postTitle}}</h4>
+                    <p>{{object.postDate | dateChange | date:'MMMM dd yyyy'}} <span class="btn btn-info btn-xs" ng-click="readMore($index)" href="#single-post">Read More...</span></p>
+                </div>
+            </div>
+        </aside>
+    </div>
+</div>
